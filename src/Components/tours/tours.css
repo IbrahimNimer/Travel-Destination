@@ -1,0 +1,20 @@
+.tour {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-bottom: 10px solid #3E3232;
+    margin-bottom: 20px;
+}
+
+.tour h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+.tour img {
+    width: 40%;
+    height: auto;
+    border-radius: 0 0 5px 5px;
+}
