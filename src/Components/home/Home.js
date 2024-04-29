@@ -6,7 +6,8 @@ import Footer from '../footer/Footer.js';
 const travelData = require('../../Data/db.json');
 
 function Home() {
-    return (
+    
+    return ( 
         <div>
             <Header />
             <div>
@@ -17,6 +18,7 @@ function Home() {
             <Footer />
         </div>
     );
+    
 }
 
 export default Home;
