@@ -1,10 +1,13 @@
-import'./tours.css';
+import './tours.css';
+import Tour from '../tours/tour/tour.js';
+import travelData from '../../Data/db.json';
 
-function Tours(props) {
+function Tours() {
     return (
-        <div className="tour">
-            <h2>{props.city_name}</h2>
-            <img src={props.city_image} alt={props.city_name} />
+        <div>
+            {travelData.map((element) => (
+                <Tour  id={element.id} city_name={element.name} city_image={element.image} />
+            ))}
         </div>
     );
 }

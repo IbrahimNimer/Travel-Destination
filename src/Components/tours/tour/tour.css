@@ -1,6 +1,6 @@
-/* Tours.css */
+/* Tour.css */
 .tour {
-  border: 1px solid #ccc;
+  border: 1px solid #135D66;
   margin: 1rem;
   padding: 1rem;
   background-color: #fff;
@@ -32,17 +32,17 @@
 
 .tour a {
   margin-top: auto;
-  color: #007bff;
+  color: #77B0AA;
   text-decoration: none;
   font-weight: bold; /* Add font weight */
   padding: 0.5rem 1rem; /* Add padding */
   border-radius: 5px; /* Add border radius */
-  border: 2px solid #007bff; /* Add border */
+  border: 2px solid #77B0AA; /* Add border */
   transition: all 0.3s ease; /* Add transition for hover effect */
 }
 
 .tour a:hover {
-  background-color: #007bff;
+  background-color: #77B0AA;
   color: #fff;
   text-decoration: none;
 }

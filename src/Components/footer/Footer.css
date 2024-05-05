@@ -1,21 +1,19 @@
 footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: sticky;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  background-color: #003C43; /* primary-color */
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: static;
+  bottom: 0;
+  width: 100%;
 }
 
 footer a {
-    text-decoration: none;
-    color: #fff;
-    margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 0.5rem;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}

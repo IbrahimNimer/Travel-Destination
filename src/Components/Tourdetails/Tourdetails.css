@@ -1,0 +1,46 @@
+/* TourDetails.css */
+.tour-details {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .tour-details img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .tour-details h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .tour-details p {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tour-details button {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .tour-details button:hover {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
