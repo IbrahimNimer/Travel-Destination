@@ -1,0 +1,21 @@
+/* NavBar.css */
+nav {
+  background-color: #003C43; /* primary-color */
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem; /* Add padding to make it look like a button */
+  border: 1px solid transparent; /* Add border for button-like appearance */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  transition: all 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+nav a:hover {
+  background-color: #135D66; /* Change background color on hover */
+  border-color: #135D66; /* Change border color on hover */
+}
